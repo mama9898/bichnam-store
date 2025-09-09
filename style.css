@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+}
+
+.header {
+  background: #1e90ff;
+  padding: 15px;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url('../images/banner.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner .btn {
+  background: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.products {
+  padding: 40px 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #1e90ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

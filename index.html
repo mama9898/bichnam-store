@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Sea Store</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">🌊 Blue Sea Store</h1>
+      <nav class="navbar">
+        <a href="index.html">Trang chủ</a>
+        <a href="product.html">Sản phẩm</a>
+        <a href="contact.html">Liên hệ</a>
+        <a href="#" class="cart">🛒 Giỏ hàng <span id="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="banner-content">
+      <h2>Chào mừng đến với Blue Sea Store</h2>
+      <p>Đồ gia dụng và tiện ích chất lượng - Giá rẻ cho sinh viên & gia đình</p>
+      <a href="product.html" class="btn">Mua ngay</a>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <h2>Sản phẩm nổi bật</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/images/noi-com.jpg" alt="Nồi cơm điện" />
+          <h3>Nồi cơm điện</h3>
+          <p class="price">450.000đ</p>
+          <button onclick="addToCart('Nồi cơm điện', 450000)">Thêm vào giỏ</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/quat.jpg" alt="Quạt điện" />
+          <h3>Quạt điện</h3>
+          <p class="price">300.000đ</p>
+          <button onclick="addToCart('Quạt điện', 300000)">Thêm vào giỏ</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/den.jpg" alt="Đèn học" />
+          <h3>Đèn học</h3>
+          <p class="price">120.000đ</p>
+          <button onclick="addToCart('Đèn học', 120000)">Thêm vào giỏ</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2>Về chúng tôi</h2>
+      <p>
+        Blue Sea Store chuyên cung cấp các sản phẩm gia dụng tiện lợi,
+        phù hợp cho sinh viên và gia đình. Cam kết chất lượng, giá cả hợp lý
+        và dịch vụ tận tâm.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>📍 Địa chỉ: 123 Đường Biển Xanh, Hà Nội</p>
+      <p>📞 Hotline: 0123 456 789</p>
+      <p>© 2025 Blue Sea Store - All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/shop.js"></script>
+</body>
+</html>
